@@ -1,48 +1,59 @@
 
-body{
-  background: var(--tint-blue);
-}
 
-header{
+header {
   padding: 1.6rem 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 
-header .container{
+header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-
-header nav{
+header nav {
   display: flex;
   align-items: center;
   gap: 4.8rem;
 }
 
-header nav ul{
+header nav ul {
   display: flex;
   gap: 3.2rem;
 }
 
-header nav ul li a{
+header nav ul li a {
   color: var(--grey-light);
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.8rem;
   opacity: 0.8;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
   opacity: 1;
 }
 
-header nav .btn{
+header nav .btn {
   display: inline-block;
   padding: 1.6rem 4.8rem;
-  border: 2px solid rgba(244, 246, 252, 0.20);
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: var(--white);
   border-radius: 4.1rem;
   font-size: 1.6rem;
   font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+header nav .btn:hover {
+  background: rgba(244, 246, 252, 0.2);
+}
+
+.s-hero{
+  padding-top: 21.8rem;
+  padding-bottom: 12.8rem;
+  background: var(--tint-blue);
 }
