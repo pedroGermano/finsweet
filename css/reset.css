@@ -13,7 +13,7 @@ html{
 
 img,
 svg{
-  width: 100%;
+  display: block;
   max-width: 100%;
 }
 
@@ -28,6 +28,7 @@ ul{
 
 .container{
   width: 100%;
-  max-width: 1280px;
+  max-width: 131.0rem;
   margin: 0 auto;
+  padding: 0px 1.5rem;
 }
