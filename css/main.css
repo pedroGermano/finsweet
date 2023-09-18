@@ -31,4 +31,18 @@ header nav ul li a{
   font-weight: 500;
   line-height: 2.8rem;
   opacity: 0.8;
+  transition: opacity .3s ease;
+}
+
+header nav ul li a:hover{
+  opacity: 1;
+}
+
+header nav .btn{
+  display: inline-block;
+  padding: 1.6rem 4.8rem;
+  border: 2px solid rgba(244, 246, 252, 0.20);
+  border-radius: 4.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
