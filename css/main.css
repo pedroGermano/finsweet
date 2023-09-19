@@ -100,8 +100,89 @@ header nav .btn:hover {
 
 .s-hero .text .btns .btn-pricing {
   display: flex;
+  align-items: center;
   font-size: 1.6rem;
   line-height: 2.8rem;
-  gap: 1rem;
+  gap: 1.6rem;
   font-weight: 500;
+}
+
+.s-hero .text .btns .btn-pricing img{
+  transition: transform .3s ease;
+}
+
+.s-hero .text .btns .btn-pricing:hover img{
+  transform: translateX(10px);
+}
+
+.s-work{
+  background: var(--grey);
+  padding: 12.8rem 0;
+}
+
+.s-work .container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.s-work .text-left{
+  width: 100%;
+  max-width: 40.5rem;
+}
+
+.s-work .text-left h2{
+  color: var(--dark-blue);
+}
+
+.s-work .text-left p{
+  color: var(--dark-blue);
+  opacity: 0.7;
+  font-size: 1.6rem;
+  margin: 1.6rem 0;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.s-work .text-left .btn {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.s-work .text-left .btn span{
+  color: var(--royal-blue);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  
+}
+
+.s-work .text-left .btn img{
+  transition: transform .3s ease;
+}
+
+.s-work .text-left  .btn:hover img {
+  transform: translateX(10px);
+}
+
+.s-work ul {
+  width: 100%;
+  max-width: 65.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.8rem 2.5rem;
+}
+
+.s-work ul li {
+  width: 30rem;
+}
+
+.s-work ul li h3{
+  color: var(--dark-blue);
+  margin-bottom: 8px;
+}
+
+.s-work ul li p{
+  color: var(--dark-blue);
 }

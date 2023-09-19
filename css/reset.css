@@ -5,6 +5,8 @@
   outline: none;
   font-family: 'Poppins', sans-serif;
   color: var(--white);
+  -webkit-font-smoothing: antialiased;
+
 }
 
 html{
