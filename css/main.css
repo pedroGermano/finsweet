@@ -178,6 +178,21 @@ header nav .btn:hover {
   width: 30rem;
 }
 
+.s-work ul li .number{
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: url("../img/bg-itens-work.svg") no-repeat center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+
+}
+
 .s-work ul li h3{
   color: var(--dark-blue);
   margin-bottom: 8px;
@@ -185,4 +200,35 @@ header nav .btn:hover {
 
 .s-work ul li p{
   color: var(--dark-blue);
+  opacity: 0.6;
+}
+
+.s-projects{
+  padding-top: 12.8rem;
+  padding-bottom: 15.1rem;
+}
+
+.s-projects .text-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.4rem;
+
+}
+
+.s-projects .text-project h2{
+  color: var(--dark-blue);
+}
+
+
+.s-projects .text-project .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.s-projects .all-projects{
+  display: flex;
+  align-items: flex-start;
 }
