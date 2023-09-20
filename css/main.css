@@ -231,4 +231,13 @@ header nav .btn:hover {
 .s-projects .all-projects{
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
+}
+
+.s-projects .all-projects .second-projects{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 40.5rem;
+  gap: 3.2rem;
 }
