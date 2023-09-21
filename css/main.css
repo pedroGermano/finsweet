@@ -234,10 +234,88 @@ header nav .btn:hover {
   justify-content: space-between;
 }
 
-.s-projects .all-projects .second-projects{
+
+
+.s-projects .all-projects .featured{
+  position: relative;
+  display: block;
+  max-width: 84.3rem;
+  height: 60rem;
+}
+
+.s-projects .all-projects .featured .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  height: 100%;
+  width: 100%;
+  max-width: 39.6rem;
+  z-index: 1;
+  padding-left: 4.8rem;
+  padding-right: 3.5rem;
+  padding-bottom: 7.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.s-projects .all-projects .featured .overlay p{
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+  max-width: 29.3rem;
+}
+
+.s-projects .all-projects .featured .overlay span{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--yellow);
+  line-height: 1.75rem;
+  transition: transform .3s ease;
+}
+.s-projects .all-projects .featured .overlay  img:hover{
+  transform: translateX(10px);
+}
+
+.s-projects .all-projects .featured .image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.s-projects .all-projects .featured .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.s-projects .all-projects .second-projects {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 40.5rem;
   gap: 3.2rem;
 }
+
+.s-projects .all-projects .second-projects .card-project {
+  display: block;
+  width: 100%;
+  height: 28.4rem;
+}
+
+.s-projects .all-projects .second-projects .card-project .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.s-projects .all-projects .second-projects .card-project .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
