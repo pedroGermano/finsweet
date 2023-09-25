@@ -354,3 +354,27 @@ header nav .btn:hover {
   line-height: 2.8rem;
   margin-top: 1rem;
 }
+
+.s-features{
+  background: var(--grey);
+  padding: 12.8rem 0;
+}
+
+.s-features .title{
+  text-align: center;
+  margin-bottom: 4.7rem;
+  max-width: 63rem;
+  margin: 0 auto;
+}
+
+.s-features .title h2{
+  color: var(--dark-blue);
+  margin-top: 1.2rem;
+}
+
+.s-features .all-cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6.9rem;
+  gap:  3.2rem;
+}
