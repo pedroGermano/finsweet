@@ -378,3 +378,19 @@ header nav .btn:hover {
   margin-top: 6.9rem;
   gap:  3.2rem;
 }
+
+.s-blog{
+  padding-top: 6rem;
+  padding-bottom: 12.3rem
+}
+
+.s-blog h2{
+  color: var(--dark-blue);
+  margin-bottom: 6.4rem;
+}
+
+.s-blog .all-cards{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
