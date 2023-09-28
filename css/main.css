@@ -203,10 +203,20 @@ header nav .btn:hover {
   opacity: 0.6;
 }
 
+.s-projects .text-project img{
+  transition: transform .3s ease;
+}
+
+.s-projects .text-project .btn:hover img{
+  transform: translateX(1rem);
+}
+
 .s-projects{
   padding-top: 12.8rem;
   padding-bottom: 15.1rem;
 }
+
+
 
 .s-projects .text-project {
   display: flex;
@@ -241,6 +251,14 @@ header nav .btn:hover {
   display: block;
   max-width: 84.3rem;
   height: 60rem;
+}
+
+.s-projects .all-projects .featured .image img{
+  transition: transform .3s ease;
+}
+
+.s-projects .all-projects .featured:hover .image img{
+  transform:  scale(1.1);
 }
 
 .s-projects .all-projects .featured .overlay {
@@ -425,6 +443,7 @@ footer .main-area .left-container .contact {
 
 footer .main-area .left-container .contact ul {
   display: flex;
+  align-items: flex-start;
   gap: 2.9rem;  
 }
 
@@ -458,4 +477,31 @@ footer .main-area .right-container  ul {
   display: flex;
   align-items: center;
   gap: 2.6rem;
+}
+
+footer .second-area {
+  padding: 3.2rem 0;
+}
+
+footer .second-area .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .second-area p{
+  color: var(--dark-blue);
+}
+
+footer .second-area ul{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  gap: 3.2rem;
+}
+
+footer .second-area ul li a{
+  color: var(--dark-blue);
 }
