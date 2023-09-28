@@ -393,5 +393,69 @@ header nav .btn:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  justify-content: space-between;
+}
+
+footer .main-area{
+  background: var(--tint-blue);
+  padding-top: 9.6rem;
+
+}
+
+footer .main-area .container{
+  display: flex;
+  align-items: flex-start;
+  gap: 14.2rem
+}
+
+footer .main-area .left-container{
+  width: 100%;
+  max-width: 51.7rem;
+}
+
+footer .main-area .left-container p {
+  margin-top: 2.3rem;
+  margin-bottom: 8.6rem;
+  max-width: 39.9rem;
+}
+
+footer .main-area .left-container .contact {
+  background: var(--yellow);
+  padding: 1.8rem 1.8rem 1.6rem 3.7rem;
+}
+
+footer .main-area .left-container .contact ul {
+  display: flex;
+  gap: 2.9rem;  
+}
+
+footer .main-area .left-container .contact ul li strong {
+  display: block;
+  color: var(--dark-blue);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+}
+
+footer .main-area .left-container .contact ul li a {
+  display: block;
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  opacity: 0.8;
+}
+
+footer .main-area .right-container{
+  width: 100%;
+  max-width: 39.9rem;
+}
+
+footer .main-area .right-container p{
+  margin-top: 1.4rem;
+  margin-bottom: 2.8rem;
+}
+footer .main-area .right-container  ul {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
 }
